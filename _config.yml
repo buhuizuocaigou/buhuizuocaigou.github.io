@@ -15,9 +15,7 @@ timezone: Asia/Shanghai
 # ↓ --------------------------
 
 title: Nirenix的BLOG # the main title
-
 tagline: 来自一个正在努力学习的安全er一枚日常记录&博客记录 # it will display as the subtitle
-
 description: >- # used by seo meta and the atom feed
  这是一个测试，用于测试第一篇博客的实验记录
 
@@ -27,7 +25,6 @@ url: "https://buhuizuocaigou.github.io"
 
 github:
   username: buhuizuocaigou # change to your GitHub username
-
 twitter:
   username: nirenix # change to your Twitter username
 
@@ -86,7 +83,7 @@ pageviews:
 # Available options:
 #
 #     light — Use the light color scheme
-#     dark — Use the dark color scheme
+#     dark — Use the dark scheme
 #
 theme_mode: dark # [light | dark]
 
@@ -98,7 +95,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
